@@ -80,10 +80,28 @@
   bodyfont=\color{black}\normalfont,
 ]{motivace}
 
+\declaretheoremstyle[
+  headfont=\color{olive}\normalfont\bfseries,
+  bodyfont=\color{black}\normalfont,
+  numbered=no
+]{ozn}
+
+\declaretheoremstyle[
+  headfont=\color{black}\normalfont\bfseries,
+  bodyfont=\color{black}\normalfont,
+  numbered=no,
+  headpunct=
+]{pozorovani}
+
 \declaretheorem[
   style=def,
   name=Definice,
 ]{definice}
+
+\declaretheorem[
+  style=ozn,
+  name=Označení,
+]{oznaceni}
 
 \declaretheorem[
   style=pr,
@@ -130,13 +148,18 @@
   name=Motivace,
 ]{motivace}
 
+\declaretheorem[
+  style=pozorovani,
+  name=\faEye,
+]{pozorovani}
+
 \DeclareMathOperator{\tg}{tg}
 \DeclareMathOperator{\cotg}{cotg}
 \DeclareMathOperator{\arctg}{arctg}
 \DeclareMathOperator{\arccotg}{arccotg}
 \DeclareMathOperator{\sgn}{sgn}
 
-\title{Úvod do sem patří název \\ {\large Zápisky z přednášky Jméno Příjmení učitele}}
+\title{Úvod do sem patří název \\ {\large Zápisky z přednášky Jméno Příjmení učitele} \\ {\large verze z \today}}
 \author{Jméno Příjmení}
 \date{}
 
